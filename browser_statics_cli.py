@@ -19,7 +19,7 @@ except:
     print("error occured")
     sys.exit()
 
-# if user requests to fetch data from w3schools
+# if user requests to fetch data from w3schools website
 if command=="fetch":
     db=extract_data()
     db.to_csv(FILE_NAME,index=False)
